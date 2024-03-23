@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robux Store</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* أسلوب CSS الحالي */
+        /* يمكنك تحديثه حسب تفضيلاتك */
+
+        /* نمط العرض للوصول إلى تسجيل الدخول */
+        .login-link {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
+    <!-- رابط تسجيل الدخول -->
+    <a class="login-link" href="https://discord.com/login">Login with Discord</a>
+
+    <!-- محتوى الصفحة -->
     <div class="container">
         <h1>Welcome To Robux Store</h1>
 
@@ -27,6 +44,9 @@
         <p>&copy; MimoXL</p>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        // عرض عدد العملات
+        document.getElementById('currency-count').textContent = localStorage.getItem('robuxCount') || 0;
+    </script>
 </body>
 </html>
