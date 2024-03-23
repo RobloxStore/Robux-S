@@ -14,6 +14,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
+    text-align: center; /* توسيط المحتوى */
 }
 
 h1 {
@@ -36,19 +37,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-.buy-form {
-    margin-top: 20px;
-}
-
-.buy-form input {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #666;
-    color: #fff;
-    border: 1px solid #333;
-}
-
-.buy-form button {
+button {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -57,21 +46,10 @@ h1 {
     cursor: pointer;
 }
 
-.buy-form button:hover {
+button:hover {
     background-color: #0056b3;
 }
 
-.buy-form button:active {
+button:active {
     background-color: #004080;
-}
-
-/* نمط العرض لعدد العملات */
-#currency {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 5px 30px;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
 }
