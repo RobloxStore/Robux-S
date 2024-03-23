@@ -20,58 +20,21 @@ h1 {
     text-align: center;
 }
 
-.coin {
-    border: 1px solid #666;
-    border-radius: 5px;
+a {
+    display: block;
+    text-align: center;
     padding: 10px;
-    margin-bottom: 10px;
-    background-color: #444;
-}
-
-.coin h2 {
-    margin-top: 0;
-}
-
-.coin p {
-    margin-bottom: 5px;
-}
-
-.buy-form {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
     margin-top: 20px;
 }
 
-.buy-form input {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #666;
-    color: #fff;
-    border: 1px solid #333;
-}
-
-.buy-form button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.buy-form button:hover {
+a:hover {
     background-color: #0056b3;
 }
 
-.buy-form button:active {
+a:active {
     background-color: #004080;
-}
-
-/* نمط العرض لعدد العملات */
-#currency {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 5px 30px;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
 }
